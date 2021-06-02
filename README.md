@@ -4,7 +4,7 @@ This repository contains the code that reproduces the results of our paper [Tilt
 
 ## Running the code
 
-You can run our code as a Colaboratory Notebook [dynamical_loss_functions_for_machine_learning](dynamical-loss-functions/dynamical_loss_functions_for_machine_learning.ipynb)
+You can run our code as a Colaboratory Notebook [dynamical_loss_functions_for_machine_learning](https://github.com/miguel-rg/dynamical-loss-functions/dynamical_loss_functions_for_machine_learning.ipynb)
 
 
 
