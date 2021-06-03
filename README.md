@@ -1,13 +1,17 @@
 # Dynamical loss functions for Machine Learning
 
-This repository contains the code that reproduces the results of our paper [Tilting the playing field: Dynamical loss functions for machine learning](https://arxiv.org/abs/2102.03793).
+This repository contains the code that reproduces the main results of our paper [Tilting the playing field: Dynamical loss functions for machine learning](https://arxiv.org/abs/2102.03793).
 
 ## What is a dynamical loss function?
 
-Loss functions are one of the keystones of Machine Learning. There are many variations, but 
+Loss functions are one of the pillars of supervised learning. They quantify the performance of the model at classifying the training data and training a neural network reduces to minimizing a predefined loss function. In this work we propose that changing the loss function during training (minimization) can help to achieve better results. We weight equally the contribution of each sample belonging to the same class, and then 
 
 
 ## Why should I care?
+
+small models 
+
+generalization
 
 
 
