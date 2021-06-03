@@ -2,9 +2,18 @@
 
 This repository contains the code that reproduces the results of our paper [Tilting the playing field: Dynamical loss functions for machine learning](https://arxiv.org/abs/2102.03793).
 
+## What is a dynamical loss function?
+
+Loss functions are one of the keystones of Machine Learning. There are many variations, but 
+
+
+## Why should I care?
+
+
+
 ## Running the code
 
-You can run our code as a Colaboratory Notebook [dynamical_loss_functions_for_machine_learning](https://github.com/miguel-rg/dynamical-loss-functions/blob/main/dynamical_loss_functions_for_machine_learning.ipynb)
+You can run our code as a Colaboratory Notebook [dynamical_loss_functions_for_machine_learning](https://github.com/miguel-rg/dynamical-loss-functions/blob/main/dynamical_loss_functions_for_machine_learning.ipynb).
 
 
 
