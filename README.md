@@ -4,19 +4,18 @@ This repository contains the code that reproduces the main results of our paper 
 
 ## What is a dynamical loss function?
 
-Loss functions are one of the pillars of supervised learning. They quantify the performance of the model at classifying the training data, and training a neural network reduces to minimizing one specific loss function. In this work we propose that changing the loss function during training (minimization) can lead to better results. In. a dynamical loss function, we weight equally the contribution of each sample belonging to the same class, and then oscillate these weights during minimization. During each oscillation the model focuses more in one class, and we cycle through all classes many times during training. In this way the network explores a larger region of the space of parameters.
+Loss functions are one of the pillars of supervised learning. They quantify the performance of the model at classifying the training data, and training a neural network reduces to minimizing one specific loss function. In this work we propose that changing the loss function during training (minimization) can lead to better results. In a dynamical loss function, we weight equally the contribution of each sample belonging to the same class, and then oscillate these weights during minimization. During each oscillation the model focuses more in one class, and we tipically cycle through all classes many times during training. 
 
 
 ## Why should I care?
 
-In our [paper](https://arxiv.org/abs/2102.03793) we show that dynamical loss functions can 
+In our [paper](https://arxiv.org/abs/2102.03793) we show:
 
-small models 
+* Using a dynamical loss function enables learning when the neural network is too small or the learning rate is too large for the model to learn the training data using standard cross entropy loss. 
 
-generalization
+* Using a dynamical loss function improves generalization in cases where the model was already able to learn the data when using standard loss functions.
 
-bifurcations and landscape topography
-
+* Dynamical loss functions lead to complex learning dynamics. The loss function landscape is changing as training progresses, the valleys that the model is descending during training are oscillating in high and width, what leads to instabilities when the valleys are too narrow. These instabilities appear as bifurcations in the learning dynamics that occur when the largest eigenvalue of the Hessian crosses a threshold.
 
 
 ## Running the code
