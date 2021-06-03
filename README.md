@@ -4,14 +4,18 @@ This repository contains the code that reproduces the main results of our paper 
 
 ## What is a dynamical loss function?
 
-Loss functions are one of the pillars of supervised learning. They quantify the performance of the model at classifying the training data and training a neural network reduces to minimizing a predefined loss function. In this work we propose that changing the loss function during training (minimization) can help to achieve better results. We weight equally the contribution of each sample belonging to the same class, and then 
+Loss functions are one of the pillars of supervised learning. They quantify the performance of the model at classifying the training data, and training a neural network reduces to minimizing one specific loss function. In this work we propose that changing the loss function during training (minimization) can lead to better results. In. a dynamical loss function, we weight equally the contribution of each sample belonging to the same class, and then oscillate these weights during minimization. During each oscillation the model focuses more in one class, and we cycle through all classes many times during training. In this way the network explores a larger region of the space of parameters.
 
 
 ## Why should I care?
 
+In our [paper](https://arxiv.org/abs/2102.03793) we show that dynamical loss functions can 
+
 small models 
 
 generalization
+
+bifurcations and landscape topography
 
 
 
