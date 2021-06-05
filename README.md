@@ -12,9 +12,9 @@ This repository contains the code that reproduces the main results of our paper 
 
 In our [paper](https://arxiv.org/abs/2102.03793) we show:
 
-* Using a dynamical loss function enables learning when the neural network was too small or the learning rate was too large for the model to learn the training data using standard loss functions. 
+* Using a dynamical loss function can enable learning when the neural network was too small or the learning rate was too large for the model to learn the training data using a standard loss functions. 
 
-* Using a dynamical loss function improves generalization in cases where the model was already able to learn the training data using a standard loss function.
+* Using a dynamical loss function can improve generalization in cases where the model was already able to learn the training data using a standard loss function.
 
 * Dynamical loss functions lead to complex learning dynamics. The loss function landscape is changing as the parameters of the neural network change to locally minimize it. The valleys that the model is descending during minimization are oscillating in high and width, what leads to instabilities when the valleys are too narrow. These instabilities appear as bifurcations in the learning dynamics that emerge when the largest eigenvalues of the Hessian cross a threshold.
 
