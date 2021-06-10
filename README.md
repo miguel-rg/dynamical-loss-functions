@@ -21,5 +21,5 @@ In our [paper](https://arxiv.org/abs/2102.03793) we show:
 
 ## Running the code
 
-You can run our code as a Colaboratory Notebook [dynamical_loss_functions_for_machine_learning](https://github.com/miguel-rg/dynamical-loss-functions/blob/main/dynamical_loss_functions_for_machine_learning.ipynb).
+You can run our code as a Colaboratory Notebook [dynamical_loss_functions_for_machine_learning](https://github.com/miguel-rg/dynamical-loss-functions/blob/main/dynamical_loss_functions_for_machine_learning_github.ipynb).
 
