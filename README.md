@@ -22,7 +22,7 @@ In our [paper](https://arxiv.org/abs/2102.03793) we show:
 ## Running the code
 
 It was brought to our attention that our code had changed its behavior and did not reproduce the results of the paper. We have updated our code to
-solve this, please use this [Colab Notebook](https://github.com/miguel-rg/dynamical-loss-functions/blob/main/dynamical_loss_functions_for_machine_learning_github.ipynb). As a side effect, at the moment this code does not compute the NTK or the Hessian.
+solve this, please use this [Colab Notebook](https://github.com/miguel-rg/dynamical-loss-functions/blob/main/Updated_dynamical_loss_functions_for_machine_learning_github_no_NTK.ipynb). As a side effect, at the moment this code does not compute the NTK or the Hessian.
 
 Our original code is still in the repository, [dynamical_loss_functions_for_machine_learning](https://github.com/miguel-rg/dynamical-loss-functions/blob/main/dynamical_loss_functions_for_machine_learning_github.ipynb). Be aware that, at the moment, this code does not reproduce the results of the paper.
 
