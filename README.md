@@ -21,8 +21,8 @@ In our [paper](https://arxiv.org/abs/2102.03793) we show:
 
 ## Running the code
 
-You can run our code as a Colaboratory Notebook [dynamical_loss_functions_for_machine_learning](https://github.com/miguel-rg/dynamical-loss-functions/blob/main/dynamical_loss_functions_for_machine_learning_github.ipynb).
-
 It has been brought to our attention that our code has changed its behavior and does not reproduce the results of the paper. We have updated our code to
-solve this, please look into this other [Colab Notebook](https://github.com/miguel-rg/dynamical-loss-functions/blob/main/Updated_dynamical_loss_functions_for_machine_learning_github.ipynb)
+solve this, please look into this other [Colab Notebook](https://github.com/miguel-rg/dynamical-loss-functions/blob/main/Updated_dynamical_loss_functions_for_machine_learning_github.ipynb). As a side effect, at the moment this code does not compute the NTK or the Hessian.
+
+Our original code is still in the repository, [dynamical_loss_functions_for_machine_learning](https://github.com/miguel-rg/dynamical-loss-functions/blob/main/dynamical_loss_functions_for_machine_learning_github.ipynb), be aware this code does not reproduce the results of the paper at the moment.
 
