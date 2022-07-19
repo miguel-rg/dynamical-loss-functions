@@ -23,3 +23,6 @@ In our [paper](https://arxiv.org/abs/2102.03793) we show:
 
 You can run our code as a Colaboratory Notebook [dynamical_loss_functions_for_machine_learning](https://github.com/miguel-rg/dynamical-loss-functions/blob/main/dynamical_loss_functions_for_machine_learning_github.ipynb).
 
+It has been brought to our attention that our code has changed its behavior and does not reproduce the results of the paper. We have updated our code to
+solve this, please look into this other [Colab Notebook](https://github.com/miguel-rg/dynamical-loss-functions/blob/main/Updated_dynamical_loss_functions_for_machine_learning_github.ipynb)
+
